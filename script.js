@@ -90,9 +90,11 @@ function extinguishCandles(){
     setTimeout(showMessage,1800);
 
 }
-function showMessage() {
+function showMessage(){
 
     container.style.display = "none";
+
+    message.classList.remove("hidden");
 
     message.classList.add("show");
 
