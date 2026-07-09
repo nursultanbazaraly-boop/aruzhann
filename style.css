@@ -124,7 +124,7 @@ transition:.4s;
 }
 
 .hidden{
-display:none !important;
+display:none;
 }
 
 #message{
