@@ -124,7 +124,7 @@ transition:.4s;
 }
 
 .hidden{
-display:none;
+display:none !important;
 }
 
 #message{
@@ -297,5 +297,3 @@ font-size:16px;
 }
 
 }
-
-
